@@ -65,6 +65,11 @@ This includes automated techniques such as:
 These are only a few examples on the editor-facing side.  
 Internally, alvisio applies many more automated processes to ensure consistent quality, stability and performance across all domains.
 
+### Further Reading
+
+- [Target Audience](automated-cms/target-audience.md)
+- [Automated CMS Overview](automated-cms/overview.md)
+
 ---
 ## 3. Multi‑Tenant Concept
 
