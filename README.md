@@ -35,6 +35,12 @@ alvisio is built on a set of clear, durable architectural principles:
 alvisio is not a traditional content management system.  
 It is an **automated CMS**: a system that applies professional design and layout techniques automatically, without requiring editors to have any design knowledge.
 
+## Target Audience
+
+alvisio is designed for organizations where website content is created by people without formal design training.  
+Unlike traditional CMS platforms that rely on manual layout decisions, alvisio automates design, typography and image processing.  
+This makes it ideal for companies where editors want to publish content quickly without dealing with layout tools, color choices or formatting rules.
+
 alvisio analyses content, images, structure and context to generate visually consistent, high‑quality layouts.  
 This includes automated techniques such as:
 
