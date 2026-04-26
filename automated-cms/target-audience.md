@@ -90,6 +90,26 @@ New editors can maintain the website within minutes.
 Many users believe they want layout freedom — until they have it.  
 In practice, freedom leads to inconsistent results and frustration.
 
+---
+
+## 6. The Technical Gap in Traditional CMS
+
+Beyond design skills, most editors also lack the technical knowledge required to maintain a stable and performant website.  
+Traditional CMS platforms often expect users to understand concepts that are far outside typical editorial roles:
+
+- JavaScript behavior and the risk of breaking interactive elements  
+- CSS rules, specificity and unintended side effects  
+- the impact of multiple overlapping CSS frameworks  
+- image compression (JPG, WebP) and the consequences of incorrect settings  
+- responsive behavior and device‑dependent rendering  
+- caching, loading order and performance bottlenecks  
+
+These issues are usually invisible to editors.  
+A single incorrect setting, misplaced class or oversized image can degrade performance, break layouts or cause inconsistent rendering across devices.
+
+alvisio avoids these problems by removing technical decision‑making from the editorial workflow.  
+Editors cannot accidentally introduce broken JavaScript, conflicting CSS or poorly compressed images — the system handles these aspects automatically and consistently.
+
 alvisio solves this by providing:
 
 > **Professional design quality without requiring design skills.**
