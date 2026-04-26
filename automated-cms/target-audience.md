@@ -1,7 +1,6 @@
-
 # Target Audience – Who alvisio is built for
 
-alvisio is designed for organizations where content is created by people who are **not** trained designers.  
+alvisio is designed for organizations where content is created by people who are not trained designers.  
 In most companies, websites are maintained by CEOs, assistants, sales teams, educators or marketing staff without formal design education.  
 Traditional CMS platforms assume the opposite.
 
@@ -43,7 +42,7 @@ Most editors:
 - do not understand responsive behavior  
 - do not want to spend time on layout decisions  
 
-They want to **publish content quickly** without worrying about design.
+They want to publish content quickly without worrying about design.
 
 alvisio is built exactly for this reality.
 
@@ -65,10 +64,9 @@ Editors only:
 
 - write text  
 - upload images  
-- publish
+- publish  
 
-Everything else happens automatically.
-
+Everything else happens automatically.  
 This eliminates errors and ensures consistent quality across all pages.
 
 ---
@@ -97,4 +95,3 @@ alvisio solves this by providing:
 > **Professional design quality without requiring design skills.**
 
 This makes alvisio ideal for organizations that value stability, consistency and efficiency over creative experimentation.
-
