@@ -44,7 +44,7 @@ These optimizations happen in real time and require no editor intervention.
 
 ## 3. Automated Content Processing
 
-alvisio performs many tasks that in other CMS manuell erledigt werden müssen:
+alvisio performs many tasks that in other CMS need to be done manually:
 
 - **automatic social media previews**  
   Pages shared on social platforms receive optimized titles, descriptions and preview images.
