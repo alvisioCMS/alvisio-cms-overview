@@ -1,7 +1,8 @@
 # Automated CMS – Overview
 
 alvisio is an **automated content management system (aCMS)** designed to create high‑quality, visually consistent websites without requiring editors to have any design or technical knowledge.  
-Unlike traditional CMS platforms, alvisio performs a wide range of design, layout and optimization tasks fully automatically.
+It differs fundamentally from traditional systems like WordPress, Typo3 or Wix, which assume that editors want and are able to perform manual layout work.  
+Instead of exposing complex design tools, alvisio automates a wide range of design, layout and optimization tasks to ensure consistent, professional results with minimal editor effort.
 
 This document provides a high-level overview of the automated concepts that make alvisio fundamentally different from conventional systems.
 
