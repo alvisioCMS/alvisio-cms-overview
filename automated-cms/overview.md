@@ -37,7 +37,7 @@ alvisio applies professional typographic rules to ensure clean, readable text:
 - non-breaking units (e.g. “3 mm”, “20 kg”, “5 °C”)  
 - correction of common spacing issues  
 - hints for overly long or short text passages  
-- structural suggestions for improved readability
+- structural suggestions for improved readability  
 
 These optimizations happen in real time and require no editor intervention.
 
@@ -45,7 +45,7 @@ These optimizations happen in real time and require no editor intervention.
 
 ## 3. Automated Content Processing
 
-alvisio performs many tasks that in other CMS need to be done manually:
+alvisio automates many tasks that in other CMS must be performed manually:
 
 - **automatic social media previews**  
   Pages shared on social platforms receive optimized titles, descriptions and preview images.
@@ -69,7 +69,7 @@ alvisio ensures that layouts remain consistent and visually stable across all de
 - automatic selection of the optimal image resolution  
 - adaptive text and image placement  
 - consistent spacing and alignment rules  
-- device‑independent rendering
+- device‑independent rendering  
 
 This allows websites to scale from mobile to desktop without editor effort.
 
@@ -77,13 +77,13 @@ This allows websites to scale from mobile to desktop without editor effort.
 
 ## 5. Automated Editorial Workflows
 
-alvisio reduces administrative overhead by automating tasks that in other CMS viel Zeit kosten:
+alvisio reduces administrative overhead by automating tasks that typically require significant time in other CMS:
 
 - direct inline editing on the page  
 - no complex admin trees or nested menus  
 - intelligent link selection with previews  
 - automatic favorites for recently edited pages  
-- fast creation of slideshows, galleries and campaigns
+- fast creation of slideshows, galleries and campaigns  
 
 Editors can publish content in seconds, even on large websites.
 
@@ -93,18 +93,18 @@ Editors can publish content in seconds, even on large websites.
 
 alvisio includes integrated tools that benefit from the same automation principles:
 
-- **newsletter generation** with automatic preview boxes  
-- **social media campaigns** with tracking (cookie‑free)  
-- **QR code monitoring**  
-- **personalized communication** (e.g. Du/Sie)
+- newsletter generation with automatic preview boxes  
+- social media campaigns with tracking (cookie‑free)  
+- QR code monitoring  
+- personalized communication (e.g. Du/Sie)  
 
-These features are designed to be used without Schulung.
+These features are designed to be used without training.
 
 ---
 
 ## 7. Summary
 
-alvisio is not just a CMS — it is an **automated system** that handles design, layout, optimization and editorial workflows on its own.  
+alvisio is not just a CMS — it is an automated system that handles design, layout, optimization and editorial workflows on its own.  
 This reduces complexity, eliminates manual errors and ensures consistently high quality across all domains.
 
 The goal of alvisio is simple:
