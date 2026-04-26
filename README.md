@@ -30,8 +30,37 @@ alvisio is built on a set of clear, durable architectural principles:
   No external code paths, no plugin attack surface, isolated tenants.
 
 ---
+## 2. Automated CMS – What makes alvisio different
 
-## 2. Multi‑Tenant Concept
+alvisio is not a traditional content management system.  
+It is an **automated CMS**: a system that applies professional design and layout techniques automatically, without requiring editors to have any design knowledge.
+
+alvisio analyses content, images, structure and context to generate visually consistent, high‑quality layouts.  
+This includes automated techniques such as:
+
+- **Responsive image processing**  
+  Images are automatically downscaled into multiple resolutions for optimal loading performance.
+
+- **Automatic color extraction**  
+  alvisio identifies dominant and accent colors in images and uses them for frames, text boxes, titles and other design elements.
+
+- **Motif protection**  
+  Important areas of an image are preserved across different aspect ratios to avoid unwanted cropping.
+
+- **Typographic optimization**  
+  Headings are automatically balanced across multiple lines for harmonious visual appearance.
+
+- **Semantic punctuation handling**  
+  Hyphens are converted into proper en‑ or em‑dashes when used as thought dashes.
+
+- **Non-breaking units**  
+  Units such as “mm”, “km”, “kg”, “°C” are kept together with their numbers to avoid line breaks (e.g. “3 mm”).
+
+These are only a few examples on the editor-facing side.  
+Internally, alvisio applies many more automated processes to ensure consistent quality, stability and performance across all domains.
+
+---
+## 3. Multi‑Tenant Concept
 
 alvisio supports multi‑domain setups through:
 
@@ -45,7 +74,7 @@ This allows dozens of websites to run on one codebase while remaining fully inde
 
 ---
 
-## 3. Content Management
+## 4. Content Management
 
 alvisio provides a structured and efficient content workflow:
 
@@ -60,7 +89,7 @@ The system is designed for clarity and long-term maintainability.
 
 ---
 
-## 4. Template & Layout System
+## 5. Template & Layout System
 
 alvisio separates content from presentation:
 
@@ -74,7 +103,7 @@ This allows each website to have its own visual identity while sharing the same 
 
 ---
 
-## 5. Extensibility
+## 6. Extensibility
 
 alvisio is modular by design:
 
@@ -87,7 +116,7 @@ The system grows with customer needs while maintaining architectural integrity.
 
 ---
 
-## 6. Security Philosophy
+## 7. Security Philosophy
 
 alvisio follows a conservative, controlled security model:
 
@@ -102,7 +131,7 @@ This approach avoids common CMS vulnerabilities caused by plugin ecosystems or s
 
 ---
 
-## 7. Performance Philosophy
+## 8. Performance Philosophy
 
 alvisio is optimized for long-term efficiency:
 
@@ -116,7 +145,7 @@ The system is designed to remain fast even after many years of operation.
 
 ---
 
-## 8. Typical Use Cases
+## 9. Typical Use Cases
 
 alvisio is used in:
 
@@ -130,7 +159,7 @@ Its architecture makes it suitable for stable, professional deployments.
 
 ---
 
-## 9. License
+## 10. License
 
 This documentation is provided for informational purposes.  
 alvisio itself is proprietary software and not publicly distributed.
