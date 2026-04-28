@@ -83,6 +83,21 @@ Examples:
 
 This goes far beyond traditional CMS themes and is a key part of alvisio’s Automated CMS approach.
 
+### Automated Media Optimization
+
+alvisio automatically processes all uploaded images: scaling, compression, WebP generation, cropping, and intelligent delivery.  
+Editors upload a file once — alvisio handles everything else.
+
+Highlights:
+
+- automatic generation of multiple sizes  
+- automatic compression and WebP conversion  
+- reversible cropping and rotation using the preserved original file  
+- automatic filename repair for clean, web‑safe naming  
+- intelligent delivery based on layout size, device resolution, and network speed  
+
+This goes far beyond HTML5 `srcset`, as alvisio also evaluates the actual layout context to deliver the optimal image for every visitor.
+
 ### Further Reading
 
 - [Target Audience](automated-cms/target-audience.md)  
