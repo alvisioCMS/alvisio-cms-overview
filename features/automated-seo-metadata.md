@@ -87,7 +87,7 @@ Examples include:
     "telephone": "...",
     "sameAs": [ ... ]
 }
-
+```
 #### **Produkt**
 ```json
 {
@@ -100,7 +100,7 @@ Examples include:
     "brand": { ... },
     "offers": { ... }
 }
-
+```
 #### **WebPage**
 ```json
 {
@@ -112,7 +112,7 @@ Examples include:
     "breadcrumb": { ... },
     "mainEntity": [ ... ]
 }
-
+```
 These blocks are generated automatically based on:
 
 - **page type**
