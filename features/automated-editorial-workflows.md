@@ -49,31 +49,6 @@ This dramatically reduces support requests and training time.
 
 ---
 
-### 4. Automatic Preview and Safe Rendering
-Editors always see a preview that reflects the final design.  
-alvisio ensures:
-
-- no broken components  
-- no layout shifts  
-- no unexpected behavior on mobile devices  
-
-The preview is always safe and consistent with the live output.
-
----
-
-### 5. Intelligent Content Validation
-Before saving or publishing, alvisio checks:
-
-- missing required fields  
-- invalid links  
-- problematic filenames  
-- oversized media  
-- inconsistent formatting  
-
-Editors receive clear, simple guidance — not technical error messages.
-
----
-
 ## Why This Is Unique
 
 Traditional CMS systems (WordPress, Typo3, CraftCMS):
