@@ -69,6 +69,20 @@ This includes automated techniques such as:
 These are only a few examples on the editor‑facing side.  
 Internally, alvisio applies many more automated processes to ensure consistent quality, stability and performance across all domains.
 
+### Automated Design Interpretation
+
+alvisio does not generate design — it intelligently interprets and applies the design system created by Agentur Albrecht.  
+It makes context‑aware decisions based on images, colors, focal points, and layout rules, ensuring that the design remains consistent even when editors have no technical knowledge.
+
+Examples:
+
+- automatic contrast optimization in hero images  
+- automatic placement of text to avoid covering the editor‑defined focal point  
+- automatic color extraction for text boxes with correct contrast  
+- automatic repair of problematic filenames on upload  
+
+This goes far beyond traditional CMS themes and is a key part of alvisio’s Automated CMS approach.
+
 ### Further Reading
 
 - [Target Audience](automated-cms/target-audience.md)  
