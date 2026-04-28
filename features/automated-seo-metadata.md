@@ -112,3 +112,48 @@ Examples include:
     "breadcrumb": { ... },
     "mainEntity": [ ... ]
 }
+
+These blocks are generated automatically based on:
+
+- **page type**
+- **page content**
+- **design configuration**
+- **site‑wide settings**
+
+Editors do not need to understand JSON‑LD or schema.org.
+
+---
+
+## 7. Automatic Image Metadata
+
+alvisio generates:
+
+- alt texts (when possible)
+- image dimensions
+- optimized filenames
+- WebP versions
+
+This improves SEO, accessibility, and performance simultaneously.
+
+---
+
+## Why This Is Unique
+
+Traditional CMS systems (WordPress, Typo3, CraftCMS):
+
+- require plugins for SEO
+- rely on editors to fill out metadata
+- do not generate JSON‑LD automatically
+- often produce inconsistent or missing metadata
+- depend on manual configuration
+
+alvisio provides:
+
+- fully automated SEO metadata
+- automatic JSON‑LD generation
+- consistent OpenGraph and social metadata
+- automatic canonical URLs
+- zero training for editors
+- SEO‑correct output on every page
+
+This is a core component of alvisio’s identity as an **Automated CMS**.
