@@ -174,11 +174,11 @@ The system originated as a custom CMS for professional corporate communication
 and has evolved into a fully automated content management system (aCMS)  
 focused on design consistency, performance, and zero‑training editorial workflows.
 
-https://alvisio.de
+[https://alvisio.de](https://alvisio.de/index.php?ca=3)
 
 ### Contact
 
 Albrecht: Agentur für Unternehmensdarstellung  
 Thorner Str. 21, 44789 Bochum  
 info@agenturalbrecht.de  
-https://agenturalbrecht.de
+[https://agenturalbrecht.de](https://www.agenturalbrecht.de/index.php?ca=16)
