@@ -180,5 +180,5 @@ focused on design consistency, performance, and zero‑training editorial workfl
 
 Albrecht: Agentur für Unternehmensdarstellung  
 Thorner Str. 21, 44789 Bochum  
-info@agenturalbrecht.de  
+[Contact](https://www.agenturalbrecht.de/m.php?get=Feedback)
 [https://agenturalbrecht.de](https://www.agenturalbrecht.de/index.php?ca=16)
