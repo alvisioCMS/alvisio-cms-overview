@@ -208,3 +208,19 @@ Its architecture makes it suitable for stable, professional deployments.
 
 This documentation is provided for informational purposes.  
 alvisio itself is proprietary software and not publicly distributed.
+
+## About alvisio
+
+alvisio has been continuously developed since 2001 by Ulrich Albrecht  
+(Albrecht: Agentur für Unternehmensdarstellung, Bochum, Germany).
+
+The system originated as a custom CMS for professional corporate communication  
+and has evolved into a fully automated content management system (aCMS)  
+focused on design consistency, performance, and zero‑training editorial workflows.
+
+**Contact**  
+Albrecht: Agentur für Unternehmensdarstellung  
+Thorner Str. 21, 44789 Bochum  
+info@agenturalbrecht.de  
+https://agenturalbrecht.de
+
