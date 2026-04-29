@@ -179,10 +179,10 @@ focused on design consistency, performance, and zero‑training editorial workfl
 ### Contact
 
 Albrecht: Agentur für Unternehmensdarstellung  
-Thorner Str. 21
-D - 44789 Bochum
-Germany
+Thorner Str. 21  
+D - 44789 Bochum  
+Germany  
 
-[Contact](https://www.agenturalbrecht.de/m.php?get=Feedback)
+[Contact Form](https://www.agenturalbrecht.de/m.php?get=Feedback)
 
 [https://agenturalbrecht.de](https://www.agenturalbrecht.de/index.php?ca=16)
