@@ -13,7 +13,7 @@ This documentation focuses on architectural concepts, design principles and the 
 
 ---
 
-## 1. Core Architecture Principles
+## Core Architecture Principles
 
 alvisio is built on durable architectural principles:
 
@@ -25,43 +25,59 @@ alvisio is built on durable architectural principles:
 - **Security Through Controlled Architecture** — no external code paths, no plugin attack surface.
 
 Further reading:  
-- [Architecture Overview](architecture/overview.md) — high‑level system structure  
-- [Multi‑Tenant Concept](architecture/multi-tenant.md) — how alvisio isolates domains  
-- [Philosophy](architecture/philosophy/README.md) — design and architectural mindset
+- [Architecture Overview](architecture/overview.md)  
+- [Multi‑Tenant Concept](architecture/multi-tenant.md)  
+- [Philosophy](architecture/philosophy/README.md)
 
 ---
 
-## 2. Automated CMS – What Makes alvisio Different
+## Automated CMS – Key Concepts
 
 alvisio is not a traditional CMS.  
 It is an **Automated CMS (aCMS)**:  
 a system that applies professional design and layout techniques automatically, without requiring editors to have design knowledge.
 
-### Key Concepts
+### Automated Design Interpretation
+alvisio interprets the design system and applies it consistently across all content.  
+→ [Automated Design](features/automated-design.md)
 
-- **Automated Design Interpretation**  
-  alvisio interprets the design system and applies it consistently across all content.  
-  → [Automated Design](features/automated-design.md)
+### Automated Media Optimization
+Images are processed, optimized and delivered intelligently.  
+→ [Automated Media Optimization](features/automated-media-optimization.md)
 
-- **Automated Media Optimization**  
-  Images are processed, optimized and delivered intelligently.  
-  → [Automated Media Optimization](features/automated-media-optimization.md)
+### Automated Editorial Workflows
+Zero‑training editing, automatic formatting, error prevention.  
+→ [Automated Editorial Workflows](features/automated-editorial-workflows.md)
 
-- **Automated Editorial Workflows**  
-  Zero‑training editing, automatic formatting, error prevention.  
-  → [Automated Editorial Workflows](features/automated-editorial-workflows.md)
-
-- **Automated SEO & Metadata**  
-  Automatic generation of meta tags, OpenGraph, Twitter Cards, JSON‑LD.  
-  → [Automated SEO & Metadata](features/automated-seo-metadata.md)
+### Automated SEO & Metadata
+Automatic generation of meta tags, OpenGraph, Twitter Cards, JSON‑LD.  
+→ [Automated SEO & Metadata](features/automated-seo-metadata.md)
 
 Further reading:  
-- [Automated CMS Overview](automated-cms/overview.md) — conceptual introduction  
-- [Target Audience](automated-cms/target-audience.md) — who benefits from alvisio
+- [Automated CMS Overview](automated-cms/overview.md)  
+- [Target Audience](automated-cms/target-audience.md)
 
 ---
 
-## 3. Multi‑Tenant Concept
+## Campaign Tracking (Cookie‑free)
+
+alvisio includes a built‑in campaign tracking mechanism based on simple URL parameters  
+(e.g. `?ca=16`). Each campaign receives a unique ID and every request is logged server‑side  
+without using cookies, JavaScript or external analytics tools.
+
+This enables tracking of:
+
+- links on external websites  
+- QR codes (business cards, vehicles, posters, flyers)  
+- email signatures  
+- offline and online marketing materials  
+
+Because no personal data is stored and no cookies are used, this mechanism is fully  
+GDPR‑compliant and works even in environments where traditional analytics are blocked.
+
+---
+
+## Multi‑Tenant Concept
 
 alvisio supports multi‑domain setups through:
 
@@ -76,7 +92,7 @@ This allows dozens of websites to run on one codebase while remaining fully inde
 
 ---
 
-## 4. Content Management
+## Content Management
 
 alvisio provides a structured and efficient content workflow:
 
@@ -91,7 +107,7 @@ The system is designed for clarity and long‑term maintainability.
 
 ---
 
-## 5. Template & Layout System
+## Template & Layout System
 
 alvisio separates content from presentation:
 
@@ -104,7 +120,7 @@ Each website can have its own visual identity while sharing the same engine.
 
 ---
 
-## 6. Extensibility
+## Extensibility
 
 alvisio is modular by design:
 
@@ -117,7 +133,7 @@ The system grows with customer needs while maintaining architectural integrity.
 
 ---
 
-## 7. Security Philosophy
+## Security Philosophy
 
 alvisio follows a conservative, controlled security model:
 
@@ -131,7 +147,7 @@ This avoids common CMS vulnerabilities caused by plugin ecosystems.
 
 ---
 
-## 8. Performance Philosophy
+## Performance Philosophy
 
 alvisio is optimized for long‑term efficiency:
 
@@ -144,7 +160,7 @@ The system remains fast even after many years of operation.
 
 ---
 
-## 9. Typical Use Cases
+## Typical Use Cases
 
 alvisio is used in:
 
@@ -158,7 +174,7 @@ Its architecture makes it suitable for stable, professional deployments.
 
 ---
 
-## 10. License
+## License
 
 This documentation is provided for informational purposes.  
 alvisio itself is proprietary software and not publicly distributed.
@@ -174,8 +190,6 @@ The system originated as a custom CMS for professional corporate communication
 and has evolved into a fully automated content management system (aCMS)  
 focused on design consistency, performance, and zero‑training editorial workflows.
 
-[https://alvisio.de](https://alvisio.de/index.php?ca=3)
-
 ### Contact
 
 Albrecht: Agentur für Unternehmensdarstellung  
@@ -183,6 +197,5 @@ Thorner Str. 21
 D - 44789 Bochum  
 Germany  
 
-[Contact Form](https://www.agenturalbrecht.de/m.php?get=Feedback)
-
+[Contact Form (secure)](https://www.agenturalbrecht.de/m.php?get=Feedback)  
 [https://agenturalbrecht.de](https://www.agenturalbrecht.de/index.php?ca=16)
