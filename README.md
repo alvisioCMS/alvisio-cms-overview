@@ -1,6 +1,11 @@
 # alvisio – Technical Documentation & Architecture Overview
 
-This repository provides a high‑level, non‑sensitive technical overview of **alvisio**, a lightweight and long‑term stable content management system designed for multi‑domain environments, professional customer projects and efficient content workflows.
+This repository provides a high‑level, non‑sensitive technical overview of **alvisio**,  
+a lightweight and long‑term stable content management system designed for:
+
+- multi‑domain environments  
+- professional customer projects  
+- efficient, zero‑training editorial workflows  
 
 alvisio operates multiple independent websites from a shared codebase while keeping all customer data strictly isolated through separate databases and domain‑specific configuration.
 
@@ -10,98 +15,49 @@ This documentation focuses on architectural concepts, design principles and the 
 
 ## 1. Core Architecture Principles
 
-alvisio is built on a set of durable architectural principles:
+alvisio is built on durable architectural principles:
 
-- **Shared Codebase**  
-  One installation powers multiple independent websites.
+- **Shared Codebase** — one installation powers multiple independent websites.  
+- **Strict Data Isolation** — each domain uses its own database and configuration.  
+- **Minimal Dependencies** — no plugin ecosystem, no external frameworks.  
+- **Separation of Concerns** — content, layout, logic and configuration are cleanly separated.  
+- **Performance Through Simplicity** — efficient SQL usage, lightweight rendering.  
+- **Security Through Controlled Architecture** — no external code paths, no plugin attack surface.
 
-- **Strict Data Isolation**  
-  Each domain uses its own database and configuration.
-
-- **Minimal Dependencies**  
-  No plugin ecosystem, no external frameworks, no third‑party modules.
-
-- **Separation of Concerns**  
-  Content, layout, logic and configuration are cleanly separated.
-
-- **Performance Through Simplicity**  
-  Efficient SQL usage, lightweight rendering, predictable behavior.
-
-- **Security Through Controlled Architecture**  
-  No external code paths, no plugin attack surface, isolated tenants.
+Further reading:  
+- [Architecture Overview](architecture/overview.md) — high‑level system structure  
+- [Multi‑Tenant Concept](architecture/multi-tenant.md) — how alvisio isolates domains  
+- [Philosophy](architecture/philosophy/README.md) — design and architectural mindset
 
 ---
 
-## 2. Automated CMS – What makes alvisio different
+## 2. Automated CMS – What Makes alvisio Different
 
-alvisio is not a traditional content management system.  
-It is an **automated CMS (aCMS)**: a system that applies professional design and layout techniques automatically, without requiring editors to have any design knowledge.
+alvisio is not a traditional CMS.  
+It is an **Automated CMS (aCMS)**:  
+a system that applies professional design and layout techniques automatically, without requiring editors to have design knowledge.
 
-### Target Audience
+### Key Concepts
 
-alvisio is designed for organizations where website content is created by people without formal design training.  
-Unlike traditional CMS platforms that rely on manual layout decisions, alvisio automates design, typography and image processing.  
-This makes it ideal for companies where editors want to publish content quickly without dealing with layout tools, color choices or formatting rules.
+- **Automated Design Interpretation**  
+  alvisio interprets the design system and applies it consistently across all content.  
+  → [Automated Design](features/automated-design.md)
 
-### Automated Design & Layout Techniques
+- **Automated Media Optimization**  
+  Images are processed, optimized and delivered intelligently.  
+  → [Automated Media Optimization](features/automated-media-optimization.md)
 
-alvisio analyses content, images, structure and context to generate visually consistent, high‑quality layouts.  
-This includes automated techniques such as:
+- **Automated Editorial Workflows**  
+  Zero‑training editing, automatic formatting, error prevention.  
+  → [Automated Editorial Workflows](features/automated-editorial-workflows.md)
 
-- **Responsive image processing**  
-  Images are automatically downscaled into multiple resolutions for optimal loading performance.
+- **Automated SEO & Metadata**  
+  Automatic generation of meta tags, OpenGraph, Twitter Cards, JSON‑LD.  
+  → [Automated SEO & Metadata](features/automated-seo-metadata.md)
 
-- **Automatic color extraction**  
-  Dominant and accent colors are identified and used for frames, text boxes, titles and other design elements.
-
-- **Motif protection**  
-  Important areas of an image are preserved across different aspect ratios to avoid unwanted cropping.
-
-- **Typographic optimization**  
-  Headings are automatically balanced across multiple lines for harmonious visual appearance.
-
-- **Semantic punctuation handling**  
-  Hyphens are converted into proper en‑ or em‑dashes when used as thought dashes.
-
-- **Non‑breaking units**  
-  Units such as “mm”, “km”, “kg”, “°C” remain attached to their numbers (e.g. “3 mm”).
-
-These are only a few examples on the editor‑facing side.  
-Internally, alvisio applies many more automated processes to ensure consistent quality, stability and performance across all domains.
-
-### Automated Design Interpretation
-
-alvisio does not generate design — it intelligently interprets and applies the design system created by Agentur Albrecht.  
-It makes context‑aware decisions based on images, colors, focal points, and layout rules, ensuring that the design remains consistent even when editors have no technical knowledge.
-
-Examples:
-
-- automatic contrast optimization in hero images  
-- automatic placement of text to avoid covering the editor‑defined focal point  
-- automatic color extraction for text boxes with correct contrast  
-- automatic repair of problematic filenames on upload  
-
-This goes far beyond traditional CMS themes and is a key part of alvisio’s Automated CMS approach.
-
-### Automated Media Optimization
-
-alvisio automatically processes all uploaded images: scaling, compression, WebP generation, cropping, and intelligent delivery.  
-Editors upload a file once — alvisio handles everything else.
-
-Highlights:
-
-- automatic generation of multiple sizes  
-- automatic compression and WebP conversion  
-- reversible cropping and rotation using the preserved original file  
-- automatic filename repair for clean, web‑safe naming  
-- intelligent delivery based on layout size, device resolution, and network speed  
-
-This goes far beyond HTML5 `srcset`, as alvisio also evaluates the actual layout context to deliver the optimal image for every visitor.
-
-### Further Reading
-
-- [Target Audience](automated-cms/target-audience.md)  
-- [Automated CMS Overview](automated-cms/overview.md)
+Further reading:  
+- [Automated CMS Overview](automated-cms/overview.md) — conceptual introduction  
+- [Target Audience](automated-cms/target-audience.md) — who benefits from alvisio
 
 ---
 
@@ -113,9 +69,10 @@ alvisio supports multi‑domain setups through:
 - database routing per tenant  
 - isolated content and media  
 - shared updates across all domains  
-- consistent behavior across customer installations  
 
 This allows dozens of websites to run on one codebase while remaining fully independent.
+
+→ See: [Multi‑Tenant Architecture](architecture/multi-tenant.md)
 
 ---
 
@@ -127,7 +84,7 @@ alvisio provides a structured and efficient content workflow:
 - category systems  
 - integrated media handling  
 - editor‑based content creation  
-- optional versioning and revision workflows  
+- optional versioning  
 - customizable navigation structures  
 
 The system is designed for clarity and long‑term maintainability.
@@ -142,9 +99,8 @@ alvisio separates content from presentation:
 - reusable layout components  
 - mobile‑friendly rendering  
 - domain‑specific design configuration  
-- clean separation between HTML, logic and content  
 
-This allows each website to have its own visual identity while sharing the same underlying engine.
+Each website can have its own visual identity while sharing the same engine.
 
 ---
 
@@ -170,9 +126,8 @@ alvisio follows a conservative, controlled security model:
 - isolated databases per domain  
 - server‑side validation  
 - predictable request handling  
-- minimal attack surface  
 
-This avoids common CMS vulnerabilities caused by plugin ecosystems or shared data structures.
+This avoids common CMS vulnerabilities caused by plugin ecosystems.
 
 ---
 
@@ -184,9 +139,8 @@ alvisio is optimized for long‑term efficiency:
 - lightweight rendering pipeline  
 - caching‑friendly output  
 - no heavy frameworks  
-- predictable performance across all domains  
 
-The system is designed to remain fast even after many years of operation.
+The system remains fast even after many years of operation.
 
 ---
 
@@ -209,18 +163,20 @@ Its architecture makes it suitable for stable, professional deployments.
 This documentation is provided for informational purposes.  
 alvisio itself is proprietary software and not publicly distributed.
 
+---
+
 ## About alvisio
 
-alvisio has been continuously developed since 2001 by Ulrich Albrecht  
+alvisio has been continuously developed **since 2001** by **Ulrich Albrecht**  
 (Albrecht: Agentur für Unternehmensdarstellung, Bochum, Germany).
 
 The system originated as a custom CMS for professional corporate communication  
 and has evolved into a fully automated content management system (aCMS)  
 focused on design consistency, performance, and zero‑training editorial workflows.
 
-**Contact**  
+### Contact
+
 Albrecht: Agentur für Unternehmensdarstellung  
 Thorner Str. 21, 44789 Bochum  
 info@agenturalbrecht.de  
 https://agenturalbrecht.de
-
