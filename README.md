@@ -61,8 +61,7 @@ Further reading:
 
 ## Campaign Tracking (Cookie‑free)
 
-alvisio includes a built‑in campaign tracking mechanism based on simple URL parameters  
-(e.g. `?ca=16`). Each campaign receives a unique ID and every request is logged server‑side  
+alvisio includes a built‑in campaign tracking mechanism. Each campaign receives a unique ID and every request is logged server‑side  
 without using cookies, JavaScript or external analytics tools.
 
 This enables tracking of:
